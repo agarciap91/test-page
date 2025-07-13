@@ -364,6 +364,16 @@
             background: #3c3b6e;
         }
 
+        .mexico-flag {
+            width: 24px;
+            height: 16px;
+            border-radius: 2px;
+            margin-right: 10px;
+            display: inline-block;
+            background: linear-gradient(to right, #006847 0%, #006847 33%, #ffffff 33%, #ffffff 66%, #ce1126 66%, #ce1126 100%);
+            position: relative;
+        }
+
         /* Matches Section */
         .matches-section {
             background: white;
@@ -513,22 +523,22 @@
             </div>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#" class="active">Matches</a></li>
-                    <li><a href="#">Table</a></li>
-                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#" class="active">Partidos</a></li>
+                    <li><a href="#">Tabla</a></li>
+                    <li><a href="#">Estadísticas</a></li>
                     <li><a href="#">Fantasy</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Players</a></li>
-                    <li><a href="#">Clubs</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Jugadores</a></li>
+                    <li><a href="#">Clubes</a></li>
                     <li><a href="#">Video</a></li>
                 </ul>
             </nav>
             <div class="header-right">
                 <div class="search-box">
-                    <input type="text" placeholder="Search...">
+                    <input type="text" placeholder="Buscar...">
                     <span class="search-icon">🔍</span>
                 </div>
-                <button class="sign-in-btn">Sign in</button>
+                <button class="sign-in-btn">Iniciar Sesión</button>
             </div>
         </div>
     </header>
@@ -539,26 +549,26 @@
         <section class="player-hero">
             <div class="hero-content">
                 <div class="player-image">
-                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iMTUwIiBmaWxsPSIjMzcwMDNjIi8+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNjAiIHI9IjI1IiBmaWxsPSIjZmZmIi8+CjxwYXRoIGQ9Ik0zMCAxMjBjMC0yNSAyMC00NSA0NS00NXM0NSAyMCA0NSA0NXYzMEgzMHoiIGZpbGw9IiNmZmYiLz4KPC9zdmc+" alt="Brenden Aaronson">
+                    <img src="fanuel-aranda.jpg" alt="Fanuel Aranda">
                 </div>
                 <div class="player-info">
                     <h1>Fanuel<br>Aranda</h1>
                     <div class="player-details">
                         <div class="team-badge">L</div>
-                        <span>Lagartos</span>
-                        <div class="position-badge">11 Midfielder</div>
+                        <span>Leeds</span>
+                        <div class="position-badge">11 Mediocampista</div>
                     </div>
-                    <button class="follow-btn">Follow</button>
+                    <button class="follow-btn">Seguir</button>
                 </div>
             </div>
         </section>
 
         <!-- Navigation Tabs -->
         <div class="nav-tabs">
-            <div class="nav-tab">Overview</div>
+            <div class="nav-tab">Resumen</div>
             <div class="nav-tab">Video</div>
-            <div class="nav-tab active">Matches</div>
-            <div class="nav-tab">Stats</div>
+            <div class="nav-tab active">Partidos</div>
+            <div class="nav-tab">Estadísticas</div>
         </div>
 
         <!-- Content Grid -->
@@ -568,44 +578,44 @@
                 <div class="stats-card">
                     <div class="stats-grid">
                         <div class="stat-item">
-                            <div class="stat-label">Nationality</div>
+                            <div class="stat-label">Nacionalidad</div>
                             <div class="stat-value">
-                                <span class="country-flag"></span>
-                                Mexico
+                                <span class="mexico-flag"></span>
+                                México
                             </div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-label">Preferred Foot</div>
-                            <div class="stat-value">Right</div>
+                            <div class="stat-label">Pie Preferido</div>
+                            <div class="stat-value">Derecho</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-label">Age</div>
+                            <div class="stat-label">Edad</div>
                             <div class="stat-value">24</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-label">Appearances</div>
+                            <div class="stat-label">Apariciones</div>
                             <div class="stat-value">36</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-label">Goals</div>
+                            <div class="stat-label">Goles</div>
                             <div class="stat-value">1</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-label">Assists</div>
+                            <div class="stat-label">Asistencias</div>
                             <div class="stat-value">3</div>
                         </div>
                     </div>
                 </div>
                 
                 <div class="bio-section">
-                    <button class="bio-btn">Full Bio</button>
+                    <button class="bio-btn">Biografía Completa</button>
                 </div>
             </div>
 
             <!-- Right Column - Matches -->
             <div class="matches-section">
                 <div class="matches-header">
-                    <h2>Matches</h2>
+                    <h2>Partidos</h2>
                     <div class="date-filter">
                         <select class="season-select">
                             <option>2025/26</option>
@@ -614,15 +624,15 @@
                         </select>
                         <div class="calendar-nav">
                             <button class="calendar-btn" onclick="changeMonth(-1)">‹</button>
-                            <div class="month-display" id="monthDisplay">July</div>
+                            <div class="month-display" id="monthDisplay">Julio</div>
                             <button class="calendar-btn" onclick="changeMonth(1)">›</button>
                         </div>
                     </div>
                 </div>
                 
                 <div class="no-matches">
-                    <h3>No matches available</h3>
-                    <p>Try a different search</p>
+                    <h3>No hay partidos disponibles</h3>
+                    <p>Intenta una búsqueda diferente</p>
                 </div>
             </div>
         </div>
@@ -630,9 +640,9 @@
 
     <script>
         // Month navigation
-        const months = ['January', 'February', 'March', 'April', 'May', 'June', 
-                       'July', 'August', 'September', 'October', 'November', 'December'];
-        let currentMonth = 6; // July (0-indexed)
+        const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
+                       'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+        let currentMonth = 6; // Julio (0-indexed)
 
         function changeMonth(direction) {
             currentMonth += direction;
@@ -692,12 +702,12 @@
 
         // Follow button interaction
         document.querySelector('.follow-btn').addEventListener('click', function() {
-            if (this.textContent === 'Follow') {
-                this.textContent = 'Following';
+            if (this.textContent === 'Seguir') {
+                this.textContent = 'Siguiendo';
                 this.style.background = '#00ff87';
                 this.style.color = '#37003c';
             } else {
-                this.textContent = 'Follow';
+                this.textContent = 'Seguir';
                 this.style.background = '#37003c';
                 this.style.color = 'white';
             }
