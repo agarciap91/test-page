@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fanuel Aranda - Premier League</title>
+    <title>Fanuel Aranda - Superliga de Fútbol Valores</title>
     <style>
         * {
             margin: 0;
@@ -46,15 +46,22 @@
         }
 
         .logo-icon {
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
             background: white;
-            border-radius: 8px;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #37003c;
             font-weight: bold;
+            overflow: hidden;
+        }
+
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .nav-menu {
@@ -518,8 +525,10 @@
     <header class="header">
         <div class="header-content">
             <div class="logo">
-                <div class="logo-icon">PL</div>
-                <span>Premier League</span>
+                <div class="logo-icon">
+                    <img src="superliga-logo.png" alt="Superliga">
+                </div>
+                <span>Superliga</span>
             </div>
             <nav>
                 <ul class="nav-menu">
@@ -554,9 +563,9 @@
                 <div class="player-info">
                     <h1>Fanuel<br>Aranda</h1>
                     <div class="player-details">
-                        <div class="team-badge">L</div>
-                        <span>Leeds</span>
-                        <div class="position-badge">11 Mediocampista</div>
+                        <div class="team-badge">V</div>
+                        <span>Lagartos FC</span>
+                        <div class="position-badge">10 Mediocampista</div>
                     </div>
                     <button class="follow-btn">Seguir</button>
                 </div>
@@ -590,7 +599,7 @@
                         </div>
                         <div class="stat-item">
                             <div class="stat-label">Edad</div>
-                            <div class="stat-value">24</div>
+                            <div class="stat-value">34</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-label">Apariciones</div>
